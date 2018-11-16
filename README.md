@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RailsでのGoogle Map利用検証リポジトリ  
 
-Things you may want to cover:
+gem "geocoder" の検証を実施  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+※利用には自身のGoogleMap API Keyを取得し、/google_map/app/views/maps/show.html.erb の、
+　MY_API_KEY を書き換える必要があります。
